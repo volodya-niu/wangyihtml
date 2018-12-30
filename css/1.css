@@ -1,0 +1,115 @@
+.freeWeek-bor{
+    display: none;
+    height:3088px;
+    width:100vw;
+    float:left;
+    position:relative;
+    z-index:1000;
+    background-color:rgba(0,0,0,0.6);
+}
+.freeWeek{
+    height:573px;
+    width:772px;
+    position:absolute;
+    top:25px;
+    left:20%;
+    background-color:#fff;
+    border: 1px solid #537695;
+}
+.freeWeek-top{
+    width:770px;
+    height:65px;
+    position:relative;
+}
+.freeWeek-top>a{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    font-size: 12px;
+    background: url("../images/popup-r-close.png") 0 0 no-repeat;
+    display: inline-block;
+    z-index: 99;
+    float: right;
+    outline: none;
+}
+.freeWeek-bot{
+    width:700px;
+    height:446px;
+    margin:0 auto;
+}
+.freeWeek-bot-title{
+    width:700px;
+    height:70px;
+    font-size:24px;
+    color:#666;
+    text-align:center ;
+}
+.freeWeek-table{
+    width:530px;
+    margin:0 auto;
+}
+.freeWeek-tr{
+    height:48px;
+    line-height:48px;
+    width:530px;
+}
+.freeWeek-table>tr>td{
+    height:48px;
+    line-height:48px;
+}
+.free-lt{
+    width:120px;
+    text-align:right;
+    font-size:16px;
+    color:#666;
+}
+.free-cen{
+    width:365px;
+}
+.free-most{
+    width: 364px;
+    height: 26px;
+    padding: 0 5px;
+    border: 1px solid #bbbbbb;
+}
+.free-tel-lt{
+    width: 112px;
+    height: 26px;
+    padding: 0 5px;
+    border: 1px solid #bbbbbb;
+    margin-right:10px;
+    margin-bottom: -50px;
+}
+.free-tel-rt{
+    width: 226px;
+    height: 26px;
+    padding: 0 5px;
+    border: 1px solid #bbbbbb;
+    margin-left: 150px;
+    margin-top: -45px;
+}
+.free-rt{
+    width:45px;
+    font-size:12px;
+    color:#666;
+    text-align:center;
+}
+.free-sel{
+    width:177px;
+    height:28px;
+}
+.free-bt{
+    display: inline-block;
+    width: 138px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+    background: #3dbd82;
+    border:none;
+    margin-top:10px;
+}

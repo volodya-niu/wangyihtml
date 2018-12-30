@@ -1,0 +1,604 @@
+/*中心部分开始*/
+.main_bodybox{
+    position: relative;
+    width: 100%;
+}
+.main _body{
+    position: relative;
+    width: 100%;
+}
+/*1.产品优势开始*/
+.product_advantage_box{
+    width: 100%;
+    background-color: #f1f3f4;
+    position: relative;
+
+}
+.advantage{
+    width: 1080px;
+    height:540px;
+    margin: 56px auto;
+padding-top: 56px ;
+}
+.advantage_tl{
+    height:446px;
+    margin-left: 150px;
+
+}
+.advantage_tl>h3{
+    font-size: 24px;
+    color: #1B1B1B;
+    font-weight: bold;
+}
+.advantage_list>ul>li{
+    float: left;
+    width: 458px;
+    height: 140px;
+    margin-left: 5px;
+    border-bottom: 1px dashed #d4d4d4;
+}
+.adlistbox{
+    width: 428px;
+    padding: 30px 0;
+}
+.logoadlist{
+    width: 75px;
+    height: 75px;
+    margin-right: 16px;
+    float: left;
+    background: url(../img/qiye-bg.png) 70px 70px no-repeat;
+    background-position: -25px -75px;
+    overflow: hidden;
+}
+.adlistbox>h4{
+    padding-bottom: 5px;
+    line-height: 1em;
+    font-size: 20px;
+    color: #0154a0;
+}
+.adlistbox>p>a{
+    font-size: 16px;
+    color: #666;
+}
+.adlistbox>p>a>i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/mix-icon.png) -225px -25px no-repeat;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.safelogo{
+    background-position: -126px -75px;
+}
+.wen{
+    background-position: -225px -75px;
+}
+.chang{
+    background-position: -325px -75px;
+}
+.yi{
+    background-position: -425px -75px;
+}
+.fu{
+    background-position: -525px -75px;
+}
+#borderno{
+  border-bottom: hidden;
+}
+#bordernone{
+    border-bottom: hidden;
+}
+/*1.产品优势结束*/
+
+/*1.产品功能开始*/
+.product_function_box{
+    width: 100%;
+    background-color:white;
+    position: relative;
+display: block;
+    overflow: hidden;
+}
+.function{
+    width: 1080px;
+    height:446px;
+    margin: 76px auto;
+    padding-top: 56px ;
+    position: relative;
+
+}
+.function_tl{
+    height:1236px;
+    margin-left: 250px;
+position: relative;
+}
+.function_tl>h3{
+    font-size: 24px;
+    color: #1B1B1B;
+    font-weight: bold;
+}
+.scientific_box{
+    width: 900px;
+    height: 240px;
+    position: relative;
+    border-bottom: 1px dashed #d4d4d4;
+}
+.scien_pic{
+    width: 335px;
+    margin: 50px 0;
+position:relative;
+}
+.scien_pic>img{
+    width: 335px;
+}
+.scien-text{
+    width: 513px;
+    height: 176px;
+    font-size: 16px;
+    position: relative;
+    top:-230px;
+  margin-left: 380px;
+
+}
+.scien-text>h3{
+    width: 513px;
+    height: 53px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0154a0;
+
+
+}
+.scien-text>p{
+    color: #555;
+    margin-top: 0px;
+}
+.tar{
+display: inline-block;
+position: relative;
+    top: 130px;
+    margin-left: 390px;
+}
+.tar>a{
+    background: #3dbd82;
+    color: #fff;
+    padding: 0 0px;
+}
+.scien-text>p>a{
+    display: inline-block;
+    width: 96px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+margin-top: 10px;
+    margin-left: 24px;
+
+}
+
+.effict_pic{
+    width: 335px;
+    margin: 50px 0;
+    position: relative;
+    top: -8px;
+    margin-left: 560px;
+}
+.effict_pic>img{
+    width: 335px;
+}
+.effict-text{
+    width: 513px;
+    height: 176px;
+    font-size: 16px;
+    position: relative;
+    top: -240px;
+
+}
+.effict-text>h3{
+    width: 513px;
+    height: 53px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0154a0;
+
+
+}
+.effict-text>p{
+    color: #555;
+    margin-top: 0px;
+}
+.tar{
+
+    position: relative;
+    top: 40px;
+
+}
+.tar>a{
+    background: #3dbd82;
+    color: #fff;
+    padding: 0 0px;
+}
+.effict-text>p>a{
+    display: inline-block;
+    width: 96px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 24px;
+
+}
+#bottomno{
+    border-bottom: none;
+}
+/*产品功能结束*/
+
+/*行业定制开始*/
+.industry_customization_box{
+    width: 100%;
+    background-color:#f1f3f4;
+    position: relative;
+overflow: hidden;
+}
+.industry_customization{
+    width: 1080px;
+    padding-top: 76px ;
+    position: relative;
+
+}
+.industry_tl{
+    height:1000px;
+    margin-left: 250px;
+    position: relative;
+}
+.industry_tl>h3{
+    font-size: 24px;
+    color: #1B1B1B;
+    font-weight: bold;
+}
+
+
+.shcool_box{
+    width: 900px;
+    height: 240px;
+    position: relative;
+    border-bottom: 1px dashed #d4d4d4;
+}
+.shcool_pic{
+    width: 335px;
+    margin: 50px 0;
+    position:relative;
+}
+.shcool_pic>img{
+    width: 335px;
+}
+.shcool-text{
+    width: 513px;
+    height: 176px;
+    font-size: 16px;
+    position: relative;
+    top:-230px;
+    margin-left: 380px;
+
+}
+.shcool-text>h3{
+    width: 513px;
+    height: 53px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0154a0;
+
+
+}
+.shcool-text>p{
+    color: #555;
+    margin-top: 0px;
+}
+.tar{
+    display: inline-block;
+    position: relative;
+    top: 130px;
+    margin-left: 390px;
+}
+.tar>a{
+    background: #3dbd82;
+    color: #fff;
+    padding: 0 0px;
+}
+.shcool-text>p>a{
+    display: inline-block;
+    width: 96px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 24px;
+
+}
+.quan_box{
+    width: 900px;
+    height: 240px;
+    position: relative;
+    border-bottom: 1px dashed #d4d4d4;
+
+}
+.quan_pic{
+    width: 335px;
+    margin: 50px 0;
+    position: relative;
+    top: -8px;
+    margin-left: 560px;
+}
+.quan_pic>img{
+    width: 335px;
+}
+.quan-text{
+    width: 513px;
+    height: 176px;
+    font-size: 16px;
+    position: relative;
+    top: -240px;
+
+}
+.quan-text>h3{
+    width: 513px;
+    height: 53px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0154a0;
+
+
+}
+.quan-text>p{
+    color: #555;
+    margin-top: 0px;
+}
+.tar{
+
+    position: relative;
+    top: 40px;
+
+}
+.tar>a{
+    background: #3dbd82;
+    color: #fff;
+    padding: 0 0px;
+}
+.quan-text>p>a{
+    display: inline-block;
+    width: 96px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 24px;
+
+}
+#bomno{
+    border-bottom: none;
+}
+/*行业定制结束*/
+/*left-side部分开始*/
+.left-side{
+    height: 130px;
+    width: 122px;
+    position: fixed;
+    top: 90px;
+    left: 80px;
+}
+.left-side>ul>li{
+    margin-top: 5px;
+    border-bottom: 1px solid #c3c1c1;
+}
+.left-side>ul>li>a{
+    position: relative;
+    height: 26px;
+    width: 82px;
+    line-height: 26px;
+    padding: 7px 24px 7px 12px;
+    display: block;
+    color: #666;
+    font-size: 16px
+
+}
+.left-side>ul>li>a>i{
+
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 26px;
+    top: 7px;
+    right:3px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: url(../img/qiye-bg.png) -175px -17px no-repeat;
+    overflow: hidden;
+
+}
+/*#side1{
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 26px;
+    top: 7px;
+    right:3px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: url(../img/qiye-bg.png) -200px -17px no-repeat;
+
+}*/
+/*left-side部分结束*/
+
+/*right-side部分开始*/
+.right-side{
+    width: 62px;
+    position: fixed!important;
+    top: 250px;
+    right: 10px;
+    z-index: 999;
+}
+.phone{
+    position: relative;
+    width: 60px;
+    height: 36px;
+    padding: 12px 0;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/aside-contact.png) no-repeat #fff;
+    background-position: -154px -2px;
+}
+.message{
+     background-position: -154px -65px;
+
+ }
+#btn{
+    width: 60px;
+    height: 36px;
+    outline: 1px solid;
+    -webkit-animation: mymove 0.8s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 0.8s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    80% {outline: 2px solid lightblue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    80% {outline: 2px solid lightblue;}
+}
+.question{
+    background-position: -83px -129px;
+}
+#myquestion{
+    width: 60px;
+    height: 36px;
+    outline: 1px solid;
+    -webkit-animation: mymove 0.8s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 0.8s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    80% {outline: 2px solid lightblue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    80% {outline: 2px solid lightblue;}
+}
+#mymessa{
+    width: 60px;
+    height: 36px;
+    outline: 1px solid;
+    -webkit-animation: mymove 0.8s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 0.8s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    80% {outline: 2px solid lightblue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    80% {outline: 2px solid lightblue;}
+}
+.free{
+    position: relative;
+    width: 60px;
+    height: 36px;
+    padding: 12px 0;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/register-tip.jpg) no-repeat #fff;
+    background-position: 5px 6px;
+}
+.txt{
+    cursor: default;
+    display: none;
+}
+.tip{
+    position: absolute;
+    width: 135px;
+    padding-right: 15px;
+    height: 40px;
+    line-height: 40px;
+    top: 11px;
+    right: 66px;
+    font-size: 12px;
+    cursor: default;
+    display: none;
+}
+.return{
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 36px;
+    padding: 12px 0;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/t01b55ff4793c2feea8.gif) no-repeat #fff;
+    background-position: -5px -5px;
+}
+#myfree{
+    width: 60px;
+    height: 36px;
+    outline: 1px solid;
+    -webkit-animation: mymove 0.8s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 0.8s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    80% {outline: 2px solid lightblue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    80% {outline: 2px solid lightblue;}
+}
+.phone:hover{
+    background: url(../img/5a1027477653n2957487230c21.jpg) no-repeat #fff;
+    background-size:60px 60px;
+    transform:scale(1.25,1.25);
+    transition: 0.1s;
+}
+.free:hover{
+    background: url(../img/1.gif) no-repeat #fff;
+    background-size:60px 60px;
+    transform:scale(1.25,1.25);
+    transition: 0.1s;
+}
+#mymessa:hover{
+    background: url(../img/t01e2f3655018a6f8a8.gif) no-repeat #fff;
+    background-size:60px 60px;
+    transform:scale(1.25,1.25);
+    transition: 0.1s;
+}
+#myquestion:hover{
+    background: url(../img/85d77acdgw1f4hz5amn43g20dw08iqqi.jpg) no-repeat #fff;
+    background-size:60px 60px;
+    transform:scale(1.25,1.25);
+    transition: 0.1s;
+}
+
+audio{
+display: none;
+position: absolute;
+
+}
+
+/*right-side部分结束*/

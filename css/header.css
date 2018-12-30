@@ -1,0 +1,58 @@
+.head{
+	width:100%;
+	height:76px;
+	background:rgb(255,255,255);
+	position:fixed;
+	top:0;
+	left:0;
+	font-size:16px;
+	z-index: 999;
+	border-bottom:1px solid rgb(224,224,224);
+}
+.head .head-mid{
+	height:75px;
+}
+.head .img{
+	line-height:75px;
+	height:75px;
+}
+.head .register{
+	height:62px;
+	line-height: 58px;
+	padding-top: 14px;
+}
+.head .register li a{
+	display:inline-block;
+	height:58px;
+	padding:0 10px;
+	color:rgb(153,153,153);
+}
+.head .register .seven a{
+	display:inline-block;
+	height:25px;
+	line-height:25px;
+	color:#fff;
+	padding:0 14px;
+	background:rgb(182,24,32);
+	border-radius:10px;
+	font-size:15px;
+}
+.head .list  ul li{
+	height:62px;
+	line-height:58px;
+	padding-top:14px;
+}
+.head .list ul li a{
+	display:inline-block;
+	height:58px;
+	padding:0 18px;
+	color:rgb(102,102,102);
+}
+.head .list ul li a:hover{
+	color:rgb(1,84,160);
+	border-bottom:4px solid rgb(1,84,160);
+}
+.head .list .special a{
+	color:rgb(1,84,160); 
+	border-bottom: rgb(1,84,160);
+}

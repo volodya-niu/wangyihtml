@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dealer</title>
+    <link rel="stylesheet" href="../头部底部引用文件/css/header.css">
+    <link rel="stylesheet" href="../css/1.css" type="text/css "/>
+    <link rel="stylesheet" href="../css/chen.css">
+    <link rel="stylesheet" href="../头部底部引用文件/css/commonStyle.css">
+    <script src="../js/chenjs.js"></script>
+</head>
+<body>
+
+<!--头部-->
+<div style="width: 100%; position: fixed;top: 0; z-index: 9">
+    <header>
+        <div class="head" >
+            <div class="head-mid middle">
+                <div class="img lt">
+                    <a href="javascript:;"><img src="../images/qiye_logo.png" alt="logo"></a>
+                </div>
+                <div class="register rt">
+                    <ul>
+                        <li class="lt"><a href="javascript:;">登录</a></li>
+                        <li class="seven lt " id="click"><a href="javascript:;">免费试用7天</a></li>
+                    </ul>
+                </div>
+                <div class="list rt">
+                    <ul>
+                        <li class="special lt"><a href="163email-hua.html">首页</a></li>
+                        <li class="lt">|</li>
+                        <li class="lt"><a href="wangyiyouxiang-niu.html">产品</a></li>
+                        <li class="lt">|</li>
+                        <li class="lt"><a href="163-huchaoyang.html">企业应用</a></li>
+                        <li class="lt">|</li>
+                        <li class="lt"><a href="163-ying.html">定价</a></li>
+                        <li class="lt">|</li>
+                        <li class="lt"><a href="javascript:;">经销商</a></li>
+                        <li class="lt">|</li>
+                        <li class="lt"><a href="javascript:;">用户故事</a></li>
+                        <li class="lt">|</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clears"></div>
+        </div>
+    </header>
+</div>
+<a href="#" name="one"></a>
+
+<!--弹出窗口-->
+<div class="freeWeek-bor" id="freeweek">
+    <div class="freeWeek">
+        <div class="freeWeek-top">
+            <a id="closeBtn"></a>
+        </div>
+        <div class="freeWeek-bot">
+            <div class="freeWeek-bot-title">亲爱的用户，请填写以下信息，我们将尽快为您开通7天免费试用服务</div>
+            <table class="freeWeek-table">
+                <tr class="freeWeek-tr">
+                    <td class="free-lt">联系人：</td>
+                    <td class="free-cen"><input type="text" class="free-most"/></td>
+                    <td class="free-rt">(必填)</td>
+                </tr>
+                <tr class="freeWeek-tr">
+                    <td class="free-lt">联系电话：</td>
+                    <td class="free-cen"><input type="text" class="free-tel-lt"/><input type="text"class="free-tel-rt"/></td>
+                    <td class="free-rt">(必填)</td>
+                </tr>
+                <tr class="freeWeek-tr">
+                    <td class="free-lt">公司名称：</td>
+                    <td class="free-cen"><input type="text" class="free-most"/></td>
+                    <td class="free-rt">(必填)</td>
+                </tr>
+                <tr class="freeWeek-tr">
+                    <td class="free-lt">联系Email：</td>
+                    <td class="free-cen"><input type="text" class="free-most"/></td>
+                    <td class="free-rt"></td>
+                </tr>
+                <tr class="freeWeek-tr">
+                    <td class="free-lt">公司域名：</td>
+                    <td class="free-cen"><input type="text" class="free-most"/></td>
+                    <td class="free-rt"></td>
+                </tr>
+                <tr class="freeWeek-tr">
+                    <td class="free-lt">所在地区：</td>
+                    <td class="free-cen">
+                        <select class="free-sel">
+                            <option value="">省份</option>
+                            <option value="">北京</option>
+                            <option value="">天津</option>
+                            <option value="">上海</option>
+                            <option value="">重庆</option>
+                            <option value="">河北</option>
+                            <option value="">山西</option>
+                            <option value="" selected>安徽</option>
+                        </select>
+                        <select class="free-sel">
+                            <option value="">地级市</option>
+                            <option value="">合肥</option>
+                            <option value="">宿州</option>
+                            <option value="">淮北</option>
+                            <option value="">亳州</option>
+                            <option value="">阜阳</option>
+                            <option value="">蚌埠</option>
+                            <option value="">淮南</option>
+                            <option value="" selected>黄山</option>
+                        </select>
+                    </td>
+                    <td class="free-rt"></td>
+                </tr>
+                <tr class="freeWeek-tr">
+                    <td class="free-lt"></td>
+                    <td class="free-cen"><button type="button" class="free-bt">提交</button></td>
+                    <td class="free-rt"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+    var closeBtn=document.getElementById("closeBtn");
+    var freeWeekBor=document.getElementsByClassName("freeWeek-bor")[0];
+        closeBtn.onclick=function(){
+        freeWeekBor.style.display="none";
+    }
+</script>
+
+<!--中部-->
+<div style="background-color: #F1F3F4;">
+    <div class="g-content">
+        <div class="g-body g-pro-body">
+            <div class="g-body-mod pro-dealer-query-mod">
+                <div class="g-wrap">
+                    <div class="g-main">
+                        <h3 class="mod-title">经销商查询</h3>
+                        <div class="mod-bd">
+                            <div class="dispic-join-dstrib">
+                                <h4>从本页面可以查询经网易公司认可的网易企业邮箱产品经销商</h4>
+                                <p class="song-txt">网易公司认可同授权经销商签订网易企业邮箱购买合同的客户的合法权益，确保客户所应享受到的服务不会因网易同经销商之间经销关系的变化而受到影响。同时，网易公司特别重申，网易公司和网易企业邮箱产品经销商分别为独立的法律人格主体，网易企业邮箱产品经销商独立为其所提供的销售和服务承担一切责任，网易公司仅对产品承担责任。</p></div>
+
+                       <!--查询-->
+                            <div class="content-dstrib">
+                                <div class="tab-box">
+                                    <div class="hd">
+                                        <a  class="tab-btn " id="get">经销商查询</a>
+                                        <a  class="tab-btn" id="get1">销售工程师查询</a>
+                                    </div>
+
+                                    <div class="tab-con"  >
+                                        <div class="tab-item clearfix block" id="display">
+                                            <div class="con-join-dstrib-left">
+                                                <embed src="../flash/mapflash_20151124%20(1).swf" width="600" height="550"></embed>
+                                            </div>
+
+                                            <!--  经销商查询-->
+                                            <div class="con-join-dstrib-right">
+                                                <div class="w-query-dstrib">
+                                                    <input type="text" class="ipt-txt" id="dealer-key" placeholder="请输入经销商名称关键字">
+                                                    <input type="button" class="w-tb-btn" id="dealer-btn" value="查询">
+                                                </div>
+                                                <p class="txt-info" id="search_tip">
+                                                    例如：查询广州网易公司，只需输入“网易”
+                                                </p>
+                                                <div class="search-result">
+                                                    <div class="search-result-head">查询结果</div>
+                                                    <div class="search-result-body" id="search_body">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 工程师查询-->
+                                        <div class="tab-item clearfix hide none" id="display1">
+                                            <div class="con-join-dstrib-left">
+                                                <div id="IDcard">
+                                                    <div class="engineerCard engineerCard-level0"></div>
+                                                </div>
+                                            </div>
+                                            <div class="con-join-dstrib-right">
+                                                <div class="w-query-dstrib">
+                                                    <input class="ipt-txt" id="engineer-key" placeholder="请输入销售工程师姓名" type="text">
+                                                    <input class="w-tb-btn" id="engineer-btn" value="查询" type="button">
+                                                </div>
+                                                <div class="search-result">
+                                                    <div class="search-result-head">查询结果</div>
+                                                    <div id="engineer-search-bd"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <!--  经销商加盟-->
+            <a href="#" name="two"></a>
+            <div style="width: 100%;height: 1px;margin-top: 300px"></div>
+
+            <div class="g-body-mod pro-join-mod" id="dealer-join">
+                <div class="g-wrap">
+                    <div class="g-main">
+                        <h3 class="mod-title">经销商加盟</h3>
+                        <div class="mod-bd">
+                            <div class="dispic-join-dealer">
+                                <h4>重视每一个经销商的价值，把每一位经销商视为真诚的合作伙伴！</h4>
+                                <p class="song-txt">如果您愿意与网易在企业邮箱领域共同开拓、共同收获，请联系我们获得更详细的经销协议:</p>
+                            </div>
+                            <div class="content-join-dstrib">
+                                <div class="join-contact clearfix">
+                                    <div class="join-Line">
+                                        <i class= "ico-phone ico bbb"></i><strong class="join-text">加盟电话</strong>|<span class="join-phone"><strong>020-85105205</strong></span>
+                                    </div>
+                                    <div class="join-email">
+                                        <i class="ico-email ico bbb"></i><strong>加盟邮箱</strong>|<strong>join@qiye.163.com</strong>
+                                    </div>
+                                </div>
+                                <div class="content-join-dealer">
+                                    <h4>加盟网易邮箱渠道经销，您将获得：</h4>
+                                    <ul class="clearfix">
+                                        <li class="dealer-1 dealer">
+                                            <div><img src="../images/_r1_c1.png" alt=""></div>
+                                            <h5>强大的品牌价值</h5>
+                                        </li>
+                                        <li class="dealer-2">
+                                            <div><img src="../images/_r1_c3.png" alt=""></div>
+                                            <h5>领先的技术优势</h5>
+                                        </li>
+                                        <li class="dealer-3">
+                                            <div><img src="../images/_r1_c5.png" alt=""></div>
+                                            <h5>完善的市场能力</h5>
+                                        </li>
+                                        <li class="dealer-4">
+                                            <div><img src="../images/_r1_c7.png" alt=""></div>
+                                            <h5>专业的客服支持</h5>
+                                        </li>
+                                        <li class="dealer-5 nmg">
+                                            <div><img src="../images/_r1_c9.png" alt=""></div>
+                                            <h5>优惠的经销商政策</h5>
+                                        </li>
+                                    </ul>
+                                    <div class="song-a">
+                                        <h4>坐拥9亿用户，技术见证辉煌。</h4>
+                                        <p class="song-txt">网易企业邮箱秉承网易邮箱优秀基因，以专业的产品、全面的服务进入企业邮箱市场。“风雨同舟齐帆进，水到渠成百年和”，网易诚邀在企业IT市场有丰富经验的公司成为网易企业邮箱的渠道合作伙伴，共享网易邮箱20年来在邮箱领域的领先技术和完善服务，共同迎接互联网行业的广阔美好的未来。
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 锚点-->
+        <div class="g-sidebar" style="">
+            <div class="affix">
+                <div class="sidebar-nav">
+                    <ul class="lift-wrapper">
+                        <li><a href="#one" class="lift-emit">经销商查询<i class="ico-state" id="icoone"></i></a></li>
+                        <li><a href="#two" class="lift-emit on">经销商加盟<i class="ico-state" id="icotwo"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="aside-contact">
+            <div class="phone-tip">
+                <div class="txt">
+                    电话<br>
+                    客服
+                </div>
+                <div class="tip">
+                    400-6281-163
+                </div>
+            </div>
+            <div class="ysp-tip">
+                <div class="txt">
+                    购买<br>
+                    咨询
+                </div>
+            </div>
+            <div class="help-tip">
+                <div class="txt">
+                    帮助
+                </div>
+                <div class="tip">
+                </div>
+                <a href="javascript:;" title="帮助"></a>
+            </div>
+            <div class="register-tip">
+                <div class="txt">
+                    <a href="javascript:;">免费<br>
+                        试用</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!--底部-->
+<div>
+    <iframe src="../头部底部引用文件/html/footer.html" width="100%" height="140px" marginwidth="0" marginheight="0"  frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+</body>
+</html>

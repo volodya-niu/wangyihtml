@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+.lt{
+	float:left;
+}
+.rt{
+	float:right;
+}
+.clears{
+	display:block;
+	clear:both;
+	height:0;
+	width:100%;
+}
+a,ul,ol,li{
+	list-style:none;
+	text-decoration:none;
+	color:#000000;
+}
+h1, h2, h3, h4, h5, h6, input, textarea, select, address, caption, cite, code, dfn, em, i, b, strong, small, th, var, abbr {
+	font-size: 100%;
+	font-style: normal;
+}
+div{
+	display:block;
+}
+img, object, select, input, textarea, button {
+	vertical-align: middle;
+}
+img,fieldset{
+	border:0;
+}
+textarea{
+	resize:none;
+}
+.middle{
+	width:1080px;
+	margin:0 auto;
+}

@@ -1,0 +1,417 @@
+li{
+    float: left;
+    list-style: none;
+}
+.g-content {
+    width: 100%;
+    padding-top: 50px;
+}
+.pro-dealer-query-mod {
+    padding: 70px 0 50px;
+    background: #f1f3f4;
+    font-size: 16px;
+    color: #666;
+}
+.g-wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+.g-content .g-main {
+    margin-left: 164px;
+}
+.g-pro-body .mod-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #333;
+}
+.pro-dealer-query-mod {
+    font-size: 16px;
+    color: #666;
+}
+.dispic-join-dealer h4, .pro-dealer-query-mod h4 {
+    color: #0154a0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2.5em;
+}
+.pro-dealer-query-mod .song-txt {
+    font-size: 14px;
+    line-height: 30px;
+}
+.content-dstrib {
+    margin-top: 45px;
+}
+.tab-box .hd {
+    height: 30px;
+    line-height: 30px;
+    background: #f4f4f4;
+    padding: 0 10px 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.tab-box .hd a.on {
+    height: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 2px solid #fff;
+    color: #0154a0;
+}
+.tab-box .hd a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    cursor: pointer;
+    color: #666;
+}
+.con-join-dstrib-left {
+    width: 613px;
+    float: left;
+}
+.con-join-dstrib-right {
+    width: 315px;
+    float: left;
+    margin-left: 610px;
+    margin-top: -540px;
+}
+.w-query-dstrib {
+    margin-top: 24px;
+}
+.con-join-dstrib-right .ipt-txt {
+    width: 212px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    padding-left: 14px;
+    border: 1px solid #DDD;
+}
+.con-join-dstrib-right .w-tb-btn {
+    width: 80px;
+    height: 34px;
+}
+.w-tb-btn {
+    display: inline-block;
+    color: #fff;
+    background: #3dbd82;
+    border: none;
+    cursor: pointer;
+}
+.con-join-dstrib-right .txt-info {
+    margin: 6px 0 0 12px;
+    font-size: 12px;
+    color: #959595;
+}
+.con-join-dstrib-right .search-result {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.search-result-head {
+    height: 36px;
+    line-height: 36px;
+    margin: 1px;
+    background: #C4DBE9;
+    text-indent: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.search-result-body {
+    padding: 20px;
+}
+.con-join-dstrib-left {
+    width: 600px;
+    float: left;
+}
+.engineerCard {
+    width: 295px;
+    height: 465px;
+    font-size: 12px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+.engineerCard, .engineerCard-level0{
+     background: url("../images/chuji.png");
+ }
+.con-join-dstrib-right {
+    width: 315px;
+    float: left;
+}
+.w-query-dstrib {
+    margin-top: 150px;
+}
+.g-wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+.g-content .g-main {
+    margin-left: 164px;
+}
+.pro-join-mod {
+    font-size: 16px;
+    color: #666;
+}
+.g-pro-body .mod-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #333;
+}
+.g-wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+.pro-join-mod{
+    margin-top: 150px;
+}
+.g-content .g-main {
+    margin-left: 164px;
+}
+.g-pro-body .mod-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #333;
+}
+.pro-join-mod .song-txt {
+    font-size: 14px;
+    line-height: 30px;
+}
+.join-contact .join-Line, .join-contact .join-email {
+    padding: 0 25px 0 43px;
+    margin: -4px 0;
+    font-size: 16px;
+    line-height: 80px;
+    color: #fff;
+    background: #5091CB;
+    float: left;
+    vertical-align: middle;
+    margin-left: 42px
+}
+.join-contact .ico-phone {
+    background-position: -24px -172px;
+}
+.join-contact .ico-email{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.join-contact .ico-phone,.bbb {
+  float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.ico {
+    background: url("../images/mix-icon.png") no-repeat;
+    overflow: hidden;
+}
+.join-contact .join-Line strong, .join-contact .join-email strong {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 15px;
+}
+.join-contact .join-email {
+    margin-left: 5px;
+}
+.join-contact .ico-email {
+    background-position: -99px -172px;
+}
+.content-join-dstrib h4, .content-join-dstrib h5 {
+    font-weight: 600;
+}
+.content-join-dstrib h4 {
+    line-height: 2.5em;
+}
+.content-join-dealer ul {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #c3c1c1;
+    margin-left: 1px;
+}
+.content-join-dealer ul li {
+    float: left;
+    width: 160px;
+    text-align: center;
+    margin-right: 26px;
+}
+.song-a{
+    float: right;
+}
+.clearfix{
+    width: 945px;
+    margin-left: -44px;
+    height: 148px;
+}
+.content-join-dealer{
+    margin-top: -45px;
+}
+.g-content .g-sidebar {
+    position: fixed;
+    width: 130px;
+    top: 100px;
+    left: 47%;
+    margin-left: -540px;
+    z-index: 250;
+}
+.g-content .g-sidebar li a {
+    position: relative;
+    height: 26px;
+    width: 82px;
+    line-height: 26px;
+    padding: 7px 24px 7px 12px;
+    display: block;
+    color: #666;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+a {
+    text-decoration: none;
+    outline: 0;
+}
+.g-content .g-sidebar a .ico-state {
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 26px;
+    top: 7px;
+    right: 0;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: url("../images/qiye-bg.png") -175px -17px no-repeat;
+    overflow: hidden;
+}
+
+
+
+.on .ico-state {
+
+    background: url("../images/qiye-bg.png") -200px -19px no-repeat;
+}
+
+
+.black{
+    display: block;
+}
+.none{
+    display: none;
+}
+
+
+
+
+.aside-contact {
+    width: 62px;
+    position: fixed;
+    top: 250px;
+    right: 10px;
+    z-index: 999;
+}
+.aside-contact .help-tip, .aside-contact .phone-tip, .aside-contact .register-tip, .aside-contact .ysp-tip {
+    position: relative;
+    width: 60px;
+    height: 36px;
+    padding: 12px 0;
+    margin-bottom: 10px;
+    border: 1px solid #bcbcbb;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    background: url("../images/aside-contact.png") no-repeat #fff;
+}
+.aside-contact .phone-tip {
+    background-position: -154px -2px;
+}
+.aside-contact .tip, .aside-contact .txt {
+    cursor: default;
+    display: none;
+}
+.aside-contact .tip {
+    position: absolute;
+    width: 135px;
+    padding-right: 15px;
+    height: 40px;
+    line-height: 40px;
+    top: 11px;
+    right: 66px;
+    font-size: 12px;
+}
+.aside-contact .ysp-tip {
+    height: 48px;
+    width: 58px;
+    padding: 10px 0 0;
+    margin-left: 1px;
+    background: #fff;
+}
+
+.aside-contact .ysp-tip .txt {
+    display: block;
+    color: #bcbcbb;
+    font-weight: 700;
+}
+.aside-contact .help-tip {
+    position: relative;
+    background-position: -82px -128px;
+}
+.aside-contact .help-tip .txt {
+    line-height: 32px;
+}
+.aside-contact .tip {
+    position: absolute;
+    width: 135px;
+    padding-right: 15px;
+    height: 40px;
+    line-height: 40px;
+    top: 11px;
+    right: 66px;
+    font-size: 12px;
+}
+.aside-contact .help-tip a {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+}
+.aside-contact .register-tip {
+    background: url("../images/register-tip.jpg") center no-repeat #fff;
+}
+.aside-contact .register-tip .txt a {
+    color: #666;
+    text-indent: -999px;
+}
+.ysp-tip{
+    animation: 1s flashing 0s infinite;
+}
+@keyframes flashing {
+    0% {
+        border-color: #fff;
+        box-shadow: 0 0 0 1px #fff, 0 0 0 2px #bcbcbb;
+        background: #f7f7f7;
+    }
+    20% {
+    border-color: #f7f7ef;
+    box-shadow: 0 0 0 1px #f7f7f7, 0 0 0 2px #cac8c7;
+    background: #f7f7f7;
+}
+40% {
+    border-color: #e7e7de;
+    box-shadow: 0 0 0 1px #efefe7, 0 0 0 2px #cac8c7;
+    background: #f7f7f7;
+}
+60% {
+    border-color: #d6ced0;
+    box-shadow: 0 0 0 1px #e7e7de, 0 0 0 2px #d6d6c6;
+    background: #f7f7f7;
+}
+
+80% {
+    border-color: #bcbcbb;
+    background: #fff;
+}
+}
+#icoone{
+background: url("../images/qiye-bg.png") -200px -19px no-repeat;
+}
+

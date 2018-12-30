@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.popup-reg #divMask{
+    position: fixed;
+    _position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    filter:alpha(opacity=60);
+    opacity: 0.6;
+    z-index: 1000;
+}
+.popup-reg .popTable {
+    position: fixed;
+    width: 770px;
+    border: 1px solid #537695;
+    left: 20%;
+    top: 20%;/*
+    margin-left: -385px;
+    margin-top: -261px;*/
+    background: #fff;
+    z-index: 1001;
+    zoom: 1;
+}
+.popup-reg .popTable .pop-hd {
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    height: 63px;
+    position: relative;
+    line-height: 63px;
+}
+.popup-reg .popTable .pop-hd p {
+    float: left;
+    width: 400px;
+    text-indent: 19px;
+}
+.popup-reg .popTable .pop-hd a {
+     position: absolute;
+     right: 5px;
+     top: 5px;
+     width: 30px;
+     height: 30px;
+     overflow: hidden;
+     font-size: 12px;
+     text-indent: -9999px;
+     background: url("../js/popup/img/popup-r-close.png") 0 0 no-repeat;
+     display: inline-block;
+     z-index: 99;
+     float: right;
+     outline: none;
+ }
+.popup-reg .popTableCont {
+    margin: 0 auto;
+    width: 700px;
+}
+.popup-reg .popTableCont-info {
+}
+.popup-reg .Tmsgfooter {
+    text-align: center;
+    clear: both;
+    height: 60px;
+}
+.Tbtn-confirm:hover {
+    background-position: 0 -36px;
+}
+.Tbtn-confirm {
+    display: block;
+    width: 86px;
+    height: 30px;
+    background: url('//mimg.127.net/hd/all/120131_qiyes1/img/btn_bg.gif') no-repeat 0 0;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.popup-reg .topTips {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+}
+.popup-reg table {
+    width: 530px;
+    margin: 0 auto;
+    color: #666;
+}
+.popup-reg table th {
+    font-size: 16px;
+    text-align: right;
+    font-weight: normal;
+}
+.popup-reg table tr td.inputd {
+    width: 365px;
+}
+.popup-reg table tr td {
+    padding: 10px 0;
+}
+.popup-reg table tr td.inputd .normal {
+    width: 346px;
+    height: 26px;
+    padding: 0 5px;
+    border: 1px solid #bbbbbb;
+}
+.popup-reg table tr td.inputd .normal-1 {
+    width: 100px;
+}
+.popup-reg table tr td.inputd .normal-2 {
+    width: 214px;
+}
+.popup-reg table tr td .inputd-divi {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+.popup-reg table tr td.inputd .select {
+    width: 177px;
+    height: 28px;
+    margin: 0;
+}
+.popup-reg .btn-crystal {
+    display: inline-block;
+    width: 138px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+    background: #3dbd82;
+    /*background: #025bc9;*/
+    cursor: pointer;
+}
+.popup-reg .btn-crystal-cancel{
+    display: inline-block;
+    width: 138px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 7px 0 12px;
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+    background: #8e827e;
+    cursor: pointer;
+}
+.popup-reg .btn-crystal:hover {
+    background: #1CC779;
+    /*background: #1A6DD4;*/
+}
+.popup-reg .btn-crystal-cancel:hover {
+    background: #958985;
+    /*background: #1A6DD4;*/
+}

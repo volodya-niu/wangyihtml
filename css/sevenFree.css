@@ -1,0 +1,128 @@
+.popup-reg #divMask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    filter: alpha(opacity=60);
+    background-size: 100% 100%;
+    opacity: 0.26;
+    z-index: 1000;
+display: none;
+}
+.popup-reg .popTable {
+     position: fixed;
+      width: 770px;
+    border: 1px solid #537695;
+    left: 20%;
+    top: 20%;
+    background: #fff;
+    z-index: 1001;
+    zoom: 1;
+    display: none;
+}
+
+.popup-reg .popTable .pop-hd a {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    font-size: 12px;
+    text-indent: -9999px;
+    background: url(../img/popup-r-close.png) 0 0 no-repeat;
+    display: inline-block;
+    z-index: 99;
+    float: right;
+    outline: none;
+}
+
+.popup-reg .popTable .pop-hd {
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    height: 63px;
+    position: relative;
+    line-height: 63px;
+}
+.popup-reg .popTableCont {
+    margin: 0 auto;
+    width: 700px;
+}
+.popup-reg .topTips {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+}
+.popup-reg table {
+    width: 530px;
+    margin: 0 auto;
+    color: #666;
+}
+.popup-reg table th {
+    font-size: 16px;
+    text-align: right;
+    font-weight: normal;
+}
+.popup-reg table tr td.inputd {
+    width: 365px;
+}
+.popup-reg table tr td {
+    padding: 10px 0;
+}
+
+.popup-reg table tr td.inputd .normal {
+    width: 346px;
+    height: 26px;
+    padding: 0 5px;
+    border: 1px solid #bbbbbb;
+}
+
+.popup-reg table tr td {
+    padding: 10px 0;
+}
+
+.popup-reg table tr td.inputd .select {
+    width: 177px;
+    height: 28px;
+    margin: 0;
+}
+
+.popup-reg table tr td.inputd .select {
+    width: 177px;
+    height: 28px;
+    margin: 0;
+}
+
+.popup-reg table tr td {
+    padding: 10px 0;
+}
+
+.popup-reg table th {
+    font-size: 16px;
+    text-align: right;
+    font-weight: normal;
+}
+
+.popup-reg .btn-crystal {
+    display: inline-block;
+    width: 138px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+    background: #3dbd82;
+    /* background: #025bc9; */
+    cursor: pointer;
+}
+
+.popup-reg .Tmsgfooter {
+    text-align: center;
+    clear: both;
+    height: 60px;
+}

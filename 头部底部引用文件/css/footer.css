@@ -1,0 +1,16 @@
+.foot{
+	height:140px;
+	background:rgb(102,102,102);
+}
+.foot p{
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	margin-bottom:8px;
+}
+.foot p a{
+	color:#fff;
+}
+.foot .firstList{
+	padding-top:30px;
+}

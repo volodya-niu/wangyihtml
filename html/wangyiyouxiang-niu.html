@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网易邮箱  产品</title>
+    <link rel="stylesheet" href="../css/commonStyle.css">
+    <link rel="stylesheet" href="../css/wangyiyouxiang-niu.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/sevenFree.css">
+    <script src="../js/wangyiyouxiang-niu.js"></script>
+    <script src="../angular-1.5.5/angular.min.js"></script>
+</head>
+<body id="d1">
+<!--返回顶部背景音乐开始-->
+<audio src="../music/fanhui.mp3" id="mmedi"></audio><br>
+<!--返回顶部背景音乐结束-->
+<!--header部分开始-->
+<header id="f">
+    <div class="head">
+        <div class="head-mid middle">
+            <div class="img lt">
+                <a href="javascript:;"><img src="../img/qiye_logo.png" alt="logo"></a>
+            </div>
+            <div class="register rt">
+                <ul>
+                    <li class="lt" onmouseover="adv()" onmouseout="adv1()"><a href="javascript:;">登录</a></li>
+                    <li class="seven lt" onclick="free()">
+                        <a href="javascript:;">免费试用7天</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list rt">
+                <ul>
+                    <li class="special lt"><a onclick="advice()" href="javascript:;">首页</a></li>
+                    <li class="lt">|</li>
+                    <li class="lt"><a onclick="advice()"href="javascript:;">产品</a></li>
+                    <li class="lt">|</li>
+                    <li class="lt"><a onclick="advice()"href="javascript:;">企业应用</a></li>
+                    <li class="lt">|</li>
+                    <li class="lt"><a onclick="advice()"href="javascript:;">定价</a></li>
+                    <li class="lt">|</li>
+                    <li class="lt"><a onclick="advice()"href="javascript:;">经销商</a></li>
+                    <li class="lt">|</li>
+                    <li class="lt"><a onclick="advice()"href="javascript:;">用户故事</a></li>
+                    <li class="lt">|</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clears"></div>
+    </div>
+</header>
+<!--header部分结束-->
+
+<!--中心页面部分开始-->
+<div class="main_bodybox">
+    <div class="main_body">
+        <!--1.产品优势开始-->
+      <div class="product_advantage_box">
+          <div class="advantage">
+             <div class="advantage_tl">
+                 <h3>产品优势</h3>
+                 <div class="advantage_list">
+                  <ul >
+                      <li>
+                          <div class="adlistbox">
+                             <div class="logoadlist"></div>
+                              <h4>品牌</h4>
+                              <p>
+                                  <a href="" onclick="foo(event)">
+                                      20年邮箱运维经验；9亿用户认可支持；超过61万家企业的信赖之选。
+                                      <i class="adtu"></i>
+                                  </a>
+                              </p>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="adlistbox">
+                              <div class="logoadlist safelogo"></div>
+                              <h4>安全</h4>
+                              <p>
+                                  <a href="" onclick="foo(event)">
+                                      首家获得邮件领域最高级别安全认证--中国信息安全测评中心EAL3+资质。
+                                      <i class="adtu"></i>
+                                  </a>
+                              </p>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="adlistbox">
+                              <div class="logoadlist wen"></div>
+                              <h4>稳定</h4>
+                              <p>
+                                  <a href="" onclick="foo(event)">
+                                      从矩阵服务器架构，到24小时专属运维团队，保障企业客户的稳定使用。
+                                      <i class="adtu"></i>
+                                  </a>
+                              </p>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="adlistbox">
+                              <div class="logoadlist chang"></div>
+                              <h4>畅邮</h4>
+                              <p>
+                                  <a href="" onclick="foo(event)">
+                                      多线接入，10G带宽，优质IP资源库及全球服务器资源，保障畅邮无阻。
+                                      <i class="adtu"></i>
+                                  </a>
+                              </p>
+                          </div>
+                      </li>
+                      <li id="borderno">
+                          <div class="adlistbox">
+                              <div class="logoadlist yi"></div>
+                              <h4>易用</h4>
+                              <p>
+                                  <a href="" onclick="foo(event)">
+                                      上千项贴心功能：企业易管理，员工易用，随时随地移动办公。
+                                      <i class="adtu"></i>
+                                  </a>
+                              </p>
+                          </div>
+                      </li>
+                      <li id="bordernone">
+                          <div class="adlistbox">
+                              <div class="logoadlist fu"></div>
+                              <h4>服务</h4>
+                              <p>
+                                  <a href="" onclick="foo(event)">
+                                      前进有方向，服务无止境。300名客服团队，电话接通率90%。
+                                      <i class="adtu"></i>
+                                  </a>
+                              </p>
+                          </div>
+                      </li>
+
+                  </ul>
+               </div>
+             </div>
+          </div>
+      </div>
+<!--1.产品优势结束-->
+        <!-- 产品功能开始-->
+        <div class="product_function_box">
+            <div class="product_function">
+                <div class="function_tl" id="pos">
+                   <h3>产品功能</h3>
+                    <!--产品功能list部分开始-->
+                    <div class="function_list">
+                        <!--科学管理部分开始-->
+                        <div class="scientific_box">
+                            <div class="scien_pic"><img src="../img/func_01.png" alt=""></div>
+                        <div class="scien-text">
+                            <h3>科学管理</h3>
+                            <p>您是企业IT管理员或企业负责人？我们为您提供完善且易用的管理控制平台，在此可对组织架构、权限、部门及员工帐号等进行各项管理工作。</p>
+                            <p class="tar"><a href="" onclick="foo(event)">了解详情&gt;</a></p>
+                        </div>
+                    </div>
+                        <!--科学管理部分结束-->
+                        <!--提高效率部分开始-->
+                        <div class="scientific_box">
+                            <div class="effict_pic"><img src="../img/func_03.png" alt=""></div>
+                            <div class="effict-text">
+                                <h3>提高效率</h3>
+                                <p>
+                                    您是企业邮箱的使用者？我们为您提供个性的、好用的、安全的专业办公用Webmail邮箱，助您轻松完成各项工作。
+                                </p>
+                                <p class="tar"><a href="" onclick="foo(event)">了解详情&gt;</a></p>
+                            </div>
+                        </div>
+                        <!--提高效率部分结束-->
+                        <!--移动办公部分开始-->
+                        <div class="scientific_box">
+                            <div class="scien_pic"><img src="../img/func_08.png" alt=""></div>
+                            <div class="scien-text">
+                                <h3>移动办公</h3>
+                                <p>您经常出差在外离不开移动办公？我们为您提供多样化的移动终端支持方案，解决您随时随地收发工作邮件、高效在线沟通等需求。</p>
+                                <p class="tar"><a href="" onclick="foo(event)">了解详情&gt;</a></p>
+                            </div>
+                        </div>
+                        <!--移动办公部分结束-->
+                        <!--降低成本部分开始-->
+                        <div class="scientific_box" id="bottomno">
+                            <div class="effict_pic"><img src="../img/func_10.png" alt=""></div>
+                            <div class="effict-text">
+                                <h3>降低成本</h3>
+                                <p>不用购置任何硬件，更无需聘请专业工程师，使用网易企业邮箱比自建企业邮箱的成本至少缩减50%！</p>
+                                <p class="tar"><a href="" onclick="foo(event)">了解详情&gt;</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--产品功能list部分结束-->
+                </div>
+            </div>
+        </div>
+        <!-- 产品功能结束-->
+
+        <!--行业定制开始-->
+        <div class="industry_customization_box">
+            <div class="industry_customization">
+                <div class="industry_tl">
+                    <h3>行业定制</h3>
+                    <!--行业定制list部分开始-->
+                    <div class="industry_list">
+                        <!--校园邮部分开始-->
+                        <div class="shcool_box">
+                            <div class="shcool_pic"><img src="../img/custom-type-3.png" alt=""></div>
+                            <div class="shcool-text">
+                                <h3>校园邮</h3>
+                                <p>提供给学校安全稳定的邮箱服务，不用部署，不耗存储，即购即用，省心好用，学生校友免费。</p>
+                                <p class="tar"><a href="" onclick="foo(event)">了解详情&gt;</a></p>
+                            </div>
+                        </div>
+                        <!--校园邮部分结束-->
+                        <!--证券邮部分开始-->
+                        <div class="quan_box">
+                            <div class="quan_pic"><img src="../img/custom-type-1.png" alt=""></div>
+                            <div class="quan-text">
+                                <h3>证券邮</h3>
+                                <p>
+                                    为证券公司提供最具公信力的第三方邮件，保证信息传输安全，并能够在系统上完整留痕，在必要时作为司法举证依据。
+
+                                </p>
+                                <p class="tar"><a href="" onclick="foo(event)">了解详情&gt;</a></p>
+                            </div>
+                        </div>
+                        <!--证券邮部分结束-->
+                        <!--法院邮<部分开始-->
+                        <div class="shcool_box" id="bomno">
+                            <div class="shcool_pic"><img src="../img/custom-type-2.png" alt=""></div>
+                            <div class="shcool-text">
+                                <h3>法院邮</h3>
+                                <p>为法院解决文书送达问题，并大力降低邮递成本，同时可以保障文书电子邮件信息安全。</p>
+                                <p class="tar"><a href="">了解详情&gt;</a></p>
+                            </div>
+                        </div>
+                        <!--法院邮<部分结束-->
+
+                    </div>
+                    <!--行业定制list部分结束-->
+                </div>
+            </div>
+        </div>
+
+        <!--行业定制结束-->
+        <!--footer部分开始-->
+        <footer>
+            <div class="foot">
+                <div class="middle">
+                    <p class="firstList">
+                        <a href="javascript:;">关于网易</a> -
+                        <a href="javascript:;">网站地图</a> -
+                        <a href="javascript:;">客户服务</a> -
+                        <a href="javascript:;">相关法律</a> -
+                        <a href="javascript:;">400-6281-163</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">ICP证粤B2-20090191</a> -
+                        <a href="javascript:;">信用中国</a> -
+                        <a href="javascript:;">增值电信业务经营许可证B2-20090058</a>
+                    </p>
+                    <p>
+                        网易公司版权所有 © 1997-- 2017
+                        <a href="javascript:;"><img src="../img/knet.png" alt=""></a>
+                        <a href="javascript:;"><img src="../img/coremail-logo.png" alt=""></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+<!--footer部分结束-->
+<!--中心页面部分结束-->
+<!--left-side部分开始-->
+<div class="left-side" onclick="foo(event)">
+    <ul>
+        <li><a href="">产品优势 <i id="side1"></i></a></li>
+        <li><a href="">产品功能 <i id="side2"></i></a></li>
+        <li><a href="">行业定制 <i id="side3"></i></a></li>
+    </ul>
+</div>
+
+<!--left-side部分结束-->
+
+<!--right-side部分开始-->
+<div class="right-side">
+    <div class="phone" onclick="music()" value="播放" id="btn">
+        <div class="txt">电话<br>客服</div>
+            <div class="tip">400-6281-163</div>
+    </div>
+    <div class="phone message" id="mymessa"></div>
+    <div class="phone question" id="myquestion"></div>
+    <div class="free free1" id="myfree"></div>
+    <div><a href="#f" class="return"></a></div>
+</div>
+
+<!--right-side部分结束-->
+<!--打开网页背景音乐开始-->
+<audio src="../music/wangyiau.mp3" id="mmedia" autoplay="autoplay" loop="loop"></audio><br>
+<audio src="../music/yan.mp3" id="mm"  loop="loop"></audio><br>
+<!--打开网页背景音乐结束-->
+<!--免费7天试用弹窗部分开始-->
+<div id="regMode" class="popup-reg">
+        <div id="divMask" class="inner" style="height: 2335px;"></div>
+        <div id="fregister" class="popTable" style="top: 10px; left: 246px; ">
+             <div class="pop-hd">
+               <a onclick="guan()" href="javascript:void(0);" id="closeBtn">关闭</a>
+             </div>
+             <div class="popTableCont">
+                 <div class="popTableCont-info reg-form">
+                     <div class="topTips">
+                        <span>亲爱的用户，请填写以下信息，我们将尽快为您开通7天免费试用服务</span>
+                     </div>
+                      <form ng-app="myApp" ng-controller="validateCtrl" name="myForm" novalidate id="popForm" onsubmit="return false;">
+            <table cellpadding="0" cellspacing="0">
+             <tbody>
+              <tr>
+                <th>联系人：</th>
+                <td class="inputd">
+                     <input type="text" name="user" ng-model="user" required class="normal" id="popPerson" name="popPerson">
+                </td>
+                <td ng-show="myForm.user.$error.required" class="tips" style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">(必填)</td>
+            </tr>
+              <tr>
+                <th>联系电话：</th>
+                <td class="inputd">
+                        <input type="text" name="phone" ng-model="email" required class="normal normal-1" id="popzipcode" name="popzip">
+                         <span class="inputd-divi">-</span>
+                         <input type="text" class="normal normal-2" id="popTel" name="poptel">
+                </td>
+                <td class="tips">(必填)</td>
+            </tr>
+              <tr>
+                <th>公司名称：</th>
+                <td class="inputd">
+                      <input type="text" class="normal" id="popCompany" name="popCompany">
+                </td>
+                <td class="tips">(必填)</td>
+            </tr>
+              <tr>
+                <th>公司域名：</th>
+                <td class="inputd">
+                     <input type="text" class="normal" id="popRegDomain" name="popRegDomain">
+                </td>
+                <td class="tips"></td>
+            </tr>
+              <tr>
+                <th>联系Email：</th>
+                <td class="inputd">
+                    <input type="text" class="normal" id="popEmail" name="popEmail">
+                </td>
+                <td class="tips"></td>
+            </tr>
+              <tr>
+                <th>所在地区：</th>
+                <td class="inputd">
+                    <select name="popProvince" id="popProvince" class="select">
+                    <option value="">省份</option>
+                    <option value="北京">北京</option>
+                    <option value="天津">天津</option>
+                    <option value="上海">上海</option>
+                    <option value="重庆">重庆</option>
+                    <option value="河北">河北</option>
+                    <option value="山西">山西</option>
+                    <option value="内蒙古">内蒙古</option>
+                    <option value="辽宁">辽宁</option>
+                    <option value="吉林">吉林</option>
+                    <option value="黑龙江">黑龙江</option>
+                    <option value="江苏">江苏</option>
+                    <option value="浙江">浙江</option>
+                    <option value="安徽">安徽</option>
+                    <option value="福建">福建</option>
+                    <option value="江西">江西</option>
+                    <option value="山东">山东</option>
+                    <option value="河南">河南</option>
+                    <option value="湖北">湖北</option>
+                    <option value="湖南">湖南</option>
+                    <option value="广东">广东</option>
+                    <option value="广西">广西</option>
+                    <option value="海南">海南</option>
+                    <option value="四川">四川</option>
+                    <option value="贵州">贵州</option>
+                    <option value="云南">云南</option>
+                    <option value="西藏">西藏</option>
+                    <option value="陕西">陕西</option>
+                    <option value="甘肃">甘肃</option>
+                    <option value="青海">青海</option>
+                    <option value="宁夏">宁夏</option>
+                    <option value="新疆">新疆</option>
+                    <option value="香港">香港</option>
+                    <option value="澳门">澳门</option>
+                    <option value="台湾">台湾</option>
+                </select>
+                     <select name="popCity" id="popCity" class="select">
+                    <option value="">地级市</option>
+                    <option value="合肥">合肥</option>
+                    <option value="宿州">宿州</option>
+                    <option value="淮北">淮北</option>
+                    <option value="亳州">亳州</option>
+                    <option value="阜阳">阜阳</option>
+                    <option value="蚌埠">蚌埠</option>
+                    <option value="淮南">淮南</option>
+                    <option value="滁州">滁州</option>
+                    <option value="马鞍山">马鞍山</option>
+                    <option value="芜湖">芜湖</option>
+                    <option value="铜陵">铜陵</option>
+                    <option value="安庆">安庆</option>
+                    <option value="黄山">黄山</option>
+                    <option value="六安">六安</option>
+                    <option value="巢湖">巢湖</option>
+                    <option value="池州">池州</option>
+                    <option value="宣城">宣城</option>
+                </select>
+                </td>
+                <td class="tips"></td>
+            </tr>
+              <tr>
+                <th>&nbsp;</th>
+                <td class="inputbtn">
+                  <div class="btn-crystal" onclick="popupRegister.regSubmit();return false;">提交</div>
+                </td>
+                <td class="tips">&nbsp;</td>
+            </tr>
+            </tbody>
+            </table>
+        </form>
+                  </div>
+             </div>
+             <div class="Tmsgfooter"></div>
+        </div>
+</div>
+<!--免费7天试用弹窗部分结束-->
+<script>
+    /*免费7天试用弹窗部分js开始*/
+    var app = angular.module('myApp', []);
+    app.controller('validateCtrl', function($scope) {
+        $scope.user = '请输入正确姓名';
+        $scope.phone = '13923455678';
+    });
+
+    function free() {
+        document.getElementsByClassName("popup-reg")[0].style.backgroundSize="0 0";
+        document.getElementsByClassName("popTable")[0].style.display="block";
+    }
+
+
+    function guan() {
+        document.getElementsByClassName("popup-reg")[0].style.backgroundSize="100% 100%";
+        document.getElementsByClassName("popTable")[0].style.display="none";
+    }
+    /*免费7天试用弹窗部分js结束*/
+ /*  清除a标签默认属性js开始
+  function foo(event) {
+        if(event.preventDefault){
+        event.preventDefault();
+    }else {
+            event.returnValue=false;
+        }
+    }
+    清除a标签默认属性js结束*/
+    /*清除a标签默认属性js开始*/
+    function foo(event) {
+            event.preventDefault();
+    }
+    /*清除a标签默认属性js结束*/
+    /*打开网页背景音乐js部分开始*/
+    function music(){
+        var btn = document.getElementById("btn");
+        var mmedia = document.getElementById("mmedia");
+        if(mmedia.paused){
+            mmedia.play();
+            btn.value = "暂停";
+        }else{
+            mmedia.pause();
+            btn.value = "播放";
+        }
+    }
+    /*打开网页背景音乐js部分结束*/
+    /*警告音乐js部分开始*/
+    function advice(){
+        var mm = document.getElementById("mm");
+        if(mm.paused){
+            mm.play();
+        }else{
+            mm.pause();
+
+        }
+    }
+
+    function adv() {
+        var mm = document.getElementById("mm");
+        mm.play();
+    }
+
+    function adv1() {
+        var mm = document.getElementById("mm");
+        mm.pause();
+    }
+    /*警告音乐js部分结束*/
+
+    /*返回顶部音乐部分js开始*/
+    var H=document.getElementsByTagName("body")[0];
+   /* H.onscroll=function(){
+        var mmedi=document.getElementById("mmedi");
+        if (H.scrollTop>-50&&H.scrollTop<2100)
+        {
+            mmedi.pause();
+        }   else {
+            mmedi.play();
+        }
+    }*/
+    /*返回顶部音乐部分js结束*/
+    /* left-side部分js开始
+   var li=document.querySelectorAll(".left-side>ul>li");
+    li[0].addEventListener("click",tr1);
+    li[1].addEventListener("click",tr2);
+    li[2].addEventListener("click",tr3);
+    function tr1() {
+        document.getElementById("side1").style.backgroundPosition="-200px -17px";
+        document.getElementById("side2").style.backgroundPosition="-175px -17px";
+        document.getElementById("side3").style.backgroundPosition="-175px -17px";
+    }
+    function tr2() {
+        document.getElementById("side1").style.backgroundPosition="-175px -17px";
+        document.getElementById("side2").style.backgroundPosition="-200px -17px";
+        document.getElementById("side3").style.backgroundPosition="-175px -17px";
+    }
+    function tr3() {
+        document.getElementById("side1").style.backgroundPosition="-175px -17px";
+        document.getElementById("side2").style.backgroundPosition="-175px -17px";
+        document.getElementById("side3").style.backgroundPosition="-200px -17px";
+    }*/
+
+    /*left-side部分js结束*/
+    /*right-side部分开始*/
+  /*right-side部分js结束*/
+    li=document.querySelectorAll(".left-side>ul>li i");
+    window.onscroll=function () {
+        if(document.body.scrollTop>=0&&document.body.scrollTop<600){
+            li[0].style.backgroundPosition="-200px -17px"
+        }else{
+            li[0].style='';
+        }
+        if(document.body.scrollTop>=600&&document.body.scrollTop<1836){
+            li[1].style.backgroundPosition="-200px -17px"
+        }else{
+            li[1].style='';
+        }
+        if(document.body.scrollTop>=1836){
+            li[2].style.backgroundPosition="-200px -17px"
+        }else{
+            li[2].style='';
+        }
+        var mmedi=document.getElementById("mmedi");
+        if (document.body.scrollTop>2400)
+        {
+            mmedi.play();
+        }   else {
+            mmedi.pause();
+        }
+            }
+    /*left-side部分js开始*/
+    var eventOne = function () {
+        document.getElementById("side1").style.backgroundPosition="-200px -17px";
+        document.getElementById("side2").style.backgroundPosition="-175px -17px";
+        document.getElementById("side3").style.backgroundPosition="-175px -17px";
+        document.body.scrollTop="0";
+    }
+    var eventTwo=function () {
+        document.getElementById("side1").style.backgroundPosition="-175px -17px";
+        document.getElementById("side2").style.backgroundPosition="-200px -17px";
+        document.getElementById("side3").style.backgroundPosition="-175px -17px";
+        document.body.scrollTop="600"
+    }
+    var eventThree=function () {
+        document.getElementById("side1").style.backgroundPosition="-175px -17px";
+        document.getElementById("side2").style.backgroundPosition="-175px -17px";
+        document.getElementById("side3").style.backgroundPosition="-200px -17px";
+        document.body.scrollTop="1836"
+    }
+    window.onload = function(){
+        var li=document.querySelectorAll(".left-side>ul>li");
+        li[0].addEventListener("click",eventOne);
+        li[1].addEventListener("click",eventTwo);
+        li[2].addEventListener("click",eventThree);
+    }
+       /* li[0].onmousewheel=function(){
+            if(scrolltop>-50&&scrolltop<600){
+                this.style.backgroundPosition="-200px -17px"
+            }
+        }
+
+        li[1].onmousewheel=function(){
+            if(window.scrolltop>500&&window.s<1300){
+                this.style.backgroundPosition="-200px -17px"
+            }
+        }
+        li[2].onmousewheel=function()
+        {
+            if(scrolltop>1300&&scrolltop<2400){
+                this.style.backgroundPosition="-200px -17px"
+            }
+        }
+    */
+</script>
+</body>
+</html>
